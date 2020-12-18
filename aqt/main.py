@@ -80,7 +80,7 @@ class AnkiQt(QMainWindow):
         self.setupProgress()
         self.setupErrorHandler()
         self.setupSignals()
-        self.setupAutoUpdate()
+        # self.setupAutoUpdate()
         self.setupHooks()
         self.setupRefreshTimer()
         self.updateTitleBar()
